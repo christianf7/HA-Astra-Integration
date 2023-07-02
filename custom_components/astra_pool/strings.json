@@ -1,0 +1,19 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "data": {
+          "host": "Host of your Astra Pool Integration API"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "This URL does not point to a valid Astra Pool Integration API",
+      "invalid_auth": "[%key:common::config_flow::error::invalid_auth%]",
+      "unknown": "An Unknown Error has Occured"
+    },
+    "abort": {
+      "already_configured": "[%key:common::config_flow::abort::already_configured_device%]"
+    }
+  }
+}
